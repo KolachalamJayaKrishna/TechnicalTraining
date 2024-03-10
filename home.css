@@ -1,0 +1,19 @@
+.img{
+    max-width: 100%;
+    display: block;
+    justify-items: center;
+    margin-top:6%;
+    margin-left: 27%;
+    width: 550px;
+    height: 550px;
+    transition: width 0.5s;
+    transition: height 0.5s;
+    transition: margin-top 0.5s, margin-left 0.5s;
+}
+.img:hover{
+    width: 650px;
+    height: 650px;
+    margin-top:2%;
+    margin-left: 24%;
+}
+
